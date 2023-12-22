@@ -1,0 +1,128 @@
+body {
+  font-family: "Sofia Pro";
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+  padding-left: 7%;
+  gap: 25%;
+}
+.logo {
+  width: 30%;
+}
+h4 {
+  font-size: 40px;
+  color: #000b0a;
+}
+.p {
+  font-size: 16px;
+  color: #737373;
+}
+.p1 {
+  font-size: 16px;
+  color: #737373;
+  display: none;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5em;
+  width: 75%;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 4px 50px rgba(4, 8, 19, 0.5);
+  padding: 30px;
+}
+.form label {
+  font-weight: 600;
+}
+.form input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #2ec4b6;
+  outline: none;
+}
+.gender select {
+  padding: 11.5px;
+  width: 200%;
+  border-radius: 5px;
+  border: 1px solid #2ec4b6;
+  outline: none;
+}
+.activity select {
+  padding: 11.5px;
+  border-radius: 5px;
+  border: 1px solid #2ec4b6;
+  outline: none;
+}
+.input {
+  width: 90%;
+}
+.input1 {
+  width: 155%;
+}
+
+.password {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+}
+.input-fields {
+  display: flex;
+  gap: 2%;
+}
+.input-fields1 {
+  display: flex;
+  gap: 26.5%;
+}
+
+.password-eye {
+  position: absolute;
+  top: 65%;
+  right: 1em;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.form .submit {
+  background-color: #2ec4b6;
+  padding: 20px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .container {
+    flex-direction: column;
+    gap: 1em;
+  }
+  .input-fields {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .gender select {
+    width: 100%;
+  }
+  .input1 {
+    width: 90%;
+  }
+  .logo {
+    width: 80%;
+    padding-left: 1%;
+  }
+  .p {
+    display: none;
+  }
+  .p1 {
+    display: block;
+    margin-top: -3em;
+  }
+  .p3 {
+    width: 90%;
+  }
+}

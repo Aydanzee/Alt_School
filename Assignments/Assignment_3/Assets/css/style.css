@@ -1,0 +1,136 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #e0e6ea;
+  height: 145vh;
+}
+/* Navbar */
+.nav {
+  display: flex;
+  padding-left: 5%;
+  justify-content: space-between;
+  gap: 45%;
+}
+.nav-ul {
+  list-style-type: none;
+  display: flex;
+  gap: 5%;
+  width: 100%;
+}
+.nav-ul li {
+  color: #1d2c3c;
+  font-weight: 600;
+  cursor: pointer;
+}
+.nav-img{
+  width: 200px;
+  height: 39px;
+}
+.account {
+  border: 1px solid #646e7a;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+  bottom: 20%;
+  cursor: pointer;
+}
+.account:hover {
+  background-color: #646e7a;
+  color: #fff;
+}
+.hr {
+  width: 93%;
+  border: 1px solid lightblue;
+  margin-bottom: 5%;
+  margin-top: -1%;
+}
+
+/* Container */
+.container {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+.checkout-container {
+  background-color: #fff;
+  padding: 20px 50px;
+}
+.checkout-container h4 {
+  font-size: 30px;
+  font-family: Lato;
+  color: #1d2c3c;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.basic-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 3em;
+}
+.payment-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 3em;
+}
+.one {
+  color: lightblue;
+  border: 2px solid lightblue;
+  border-radius: 50%;
+  padding: 1px 5px;
+  margin-right: 5px;
+}
+.basic-head {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1d2c3c;
+}
+.checkout-form label {
+  font-size: 14px;
+  color: #1d2c3c;
+  font-weight: 600;
+}
+.checkout-form input {
+  border-radius: 4px;
+  background-color: #edeff2;
+  padding: 15px;
+  border: none;
+  outline: none;
+}
+.checkout-form .submit-btn {
+  border-radius: 5px;
+  background-color: #038e7d;
+  color: #fff;
+  padding: 20px;
+  font-size: 18px;
+  width: 100%;
+  cursor: pointer;
+}
+.icon {
+  position: relative;
+  left: 40%;
+}
+/* Second Container */
+.second-container {
+  background-color: #1179bf;
+  color: #fff;
+  padding: 20px;
+  height: 110vh;
+}
+.second-container h5 {
+  font-size: 20px;
+}
+.year {
+  font-weight: 600;
+}
+.span {
+  font-size: 60px;
+}
+.img {
+  position: relative;
+  top: 6px;
+}
+sup {
+  position: relative;
+  bottom: 2em;
+  font-size: 16px;
+}

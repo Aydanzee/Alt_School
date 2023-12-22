@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lobster+Two&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <img
+          class="nav-img"
+          src="./Assets/Icons/wppusher-logo copy.png"
+          alt="nav-logo"
+        />
+        <ul class="nav-ul">
+          <li>Download</li>
+          <li>Learn more</li>
+          <li>Pricing</li>
+          <li>Help</li>
+          <li class="account">Account</li>
+        </ul>
+      </nav>
+      <hr class="hr" />
+    </header>
+    <!-- Overall ontainer -->
+    <div class="container">
+      <!-- Checkout Container -->
+      <div class="checkout-container">
+        <h4>Checkout</h4>
+        <form class="checkout-form" action="">
+          <div class="basic-info">
+            <div class="basic-head">
+              <span class="one">1 </span>Your Basic Information
+            </div>
+            <div style="display: flex; gap: 10px">
+              <div style="display: flex; flex-direction: column; gap: 5px">
+                <label for="">First Name</label>
+                <input type="text" name="" placeholder="Jane" />
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 5px">
+                <label for="">Last Name</label>
+                <input type="text" name="" placeholder="Doe" />
+              </div>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 5px">
+              <label for="">E-mail</label>
+              <input type="email" name="" placeholder="janedoe@example.com" />
+            </div>
+          </div>
+          <div class="payment-info">
+            <div class="basic-head">
+              <span class="one">2</span>Your Payment Information
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 5px">
+              <label for="">Credit Card</label>
+              <input
+                type="text"
+                placeholder="Card Number                                                    MM / YY     CVC"
+              />
+            </div>
+          </div>
+          <input
+            class="submit-btn"
+            type="submit"
+            name="submit"
+            value="Buy WP Pusher"
+          />
+        </form>
+        <div>
+          <p style="width: 20vw">
+            <img class="img" src="./Assets/Icons/Mask.svg" alt="" />
+            <span style="font-weight: 600">Need any help:</span> Don't hesitate
+            to contact support!
+          </p>
+        </div>
+        <img class="icon" src="./Assets/Icons/powered_by_stripe.svg" alt="" />
+      </div>
+      <div class="second-container">
+        <h5>Freelancer</h5>
+        <div class="year"><sup>$</sup><span class="span">99</span> / year</div>
+        <p style="font-size: 16px; font-style: italic">
+          Automatically renews after 1 year
+        </p>
+        <div>
+          <img class="img" src="./Assets/Icons/Combined Shape.svg" alt="" />
+          Use on 5 client sites
+        </div>
+        <div>
+          <img class="img" src="./Assets/Icons/Combined Shape.svg" alt="" />
+          Private repositories
+        </div>
+        <div>
+          <img class="img" src="./Assets/Icons/Combined Shape.svg" alt="" />
+          Email support
+        </div>
+        <p>
+          Need 20 client sites? <br />
+          <a style="color: #fff" href="#"> Switch to the Agency plan.</a>
+        </p>
+        <hr />
+        <p style="font-size: 18px; width: 17vw; font-style: italic">
+          FTP is horrible to deal with. WP Pusher solves that issue, and the
+          customer support is awesome!
+        </p>
+        <div>
+          <img
+            style="border-radius: 50%; position: relative; top: 13px"
+            src="./Assets/Icons/Bitmap.png"
+            alt=""
+          />
+          Kirk Beard
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

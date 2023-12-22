@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./Assets/CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sofia Pro:wght@600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img src="./Assets/icons/Logo.png" alt="logo" />
+        <h4>For Individuals</h4>
+        <p class="p">
+          Start benefiting from the wellness experience. For <br>companies looking
+          on increasing productivity, and improving organization wellness
+        </p>
+        <p class="p1">
+          Inspiring wholesome harmony for the mind, body and spirit, for
+          everyone, everywhere.
+        </p>
+      </div>
+      <div>
+        <form class="form" action="">
+          <div class="input-fields">
+            <div>
+              <label for="">First Name</label>
+              <input class="input" type="text" placeholder="Tolu" />
+            </div>
+            <div>
+              <label for="">Last Name</label>
+              <input class="input" type="text" />
+            </div>
+          </div>
+          <div class="input-fields input-fields1">
+            <div class="gender" style="display: flex; flex-direction: column">
+              <label for="">Gender</label>
+              <select name="" id="">
+                <option value="" selected style="display: none">
+                  Select here
+                </option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+            <div style="display: flex; flex-direction: column">
+              <label for="">Date of Birth</label>
+              <input class="input1" type="date" name="" id="" />
+            </div>
+          </div>
+          <div class="input-fields">
+            <div>
+              <label for="">Weight (KG)</label>
+              <input class="input" type="text" placeholder="Enter Weight" />
+            </div>
+            <div>
+              <label for="">Height (CM)</label>
+              <input
+                class="input"
+                type="text"
+                placeholder="Enter height here.."
+              />
+            </div>
+          </div>
+          <div class="activity" style="display: flex; flex-direction: column">
+            <label for="">Activity Level</label>
+            <select name="" id="">
+              <option value="" selected style="display: none">
+                Select here
+              </option>
+              <option value="">Level 1</option>
+              <option value="">Level 2</option>
+            </select>
+          </div>
+          <div class="password">
+            <label for="">Password</label>
+            <input
+              type="password"
+              placeholder="Enter your password"
+              autocomplete="new-password"
+            />
+            <img class="password-eye" src="./Assets/icons/show.svg" alt="" />
+          </div>
+          <input class="submit" type="submit" name="submit" value="Register" />
+        </form>
+        <p class="p3" style="position: relative; left: 4%">
+          By clicking Register, you agree to our
+          <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

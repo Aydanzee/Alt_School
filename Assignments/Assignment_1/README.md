@@ -1,0 +1,1 @@
+This repository contains the HTML files for two pages - an "About Me" page detailing personal details, reasons for joining AltSchool, and objectives, and a replication of the registration form for AltSchool.
